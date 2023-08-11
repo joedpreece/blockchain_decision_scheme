@@ -1,0 +1,93 @@
+Domain ID,Domain,Attribute ID,Attribute,Question ID,Question
+1,Data and Participation,1,Data Attributes,1,Is there a need to store data?
+1,Data and Participation,1,Data Attributes,2,Is all the data coming from a single entity?
+1,Data and Participation,1,Data Attributes,3,Does a traditional database technology meet the needs?
+1,Data and Participation,1,Data Attributes,4,Is the database likely to be attacked?
+1,Data and Participation,1,Data Attributes,5,Is there a need to modify historical data?
+1,Data and Participation,2,Authority Nodes,6,Is there a need to have authorised access in the blockchain such that there is access control over which of the data is public and private?
+1,Data and Participation,2,Authority Nodes,7,Is there authority nodes to maintain the database in the blockchain?
+1,Data and Participation,3,Readers and Writers,8,Are there multiple parties/participants?
+1,Data and Participation,3,Readers and Writers,9,Is there a need for more than one participant to update the data?
+1,Data and Participation,3,Readers and Writers,10,Can any peer join the blockchain as a reader without needing approval at any time?
+1,Data and Participation,3,Readers and Writers,11,Can any peer join the blockchain as a writer without needing approval at any time?
+1,Data and Participation,3,Readers and Writers,12,Is there a need for a relatively large number of writers in the blockchain?
+1,Data and Participation,4,Reader and Writer Characteristics,13,Are the identities of the readers known?
+1,Data and Participation,4,Reader and Writer Characteristics,14,Are the readers trusted in the system?
+1,Data and Participation,4,Reader and Writer Characteristics,15,Are the identities of the writers known?
+1,Data and Participation,4,Reader and Writer Characteristics,16,Are the writers trusted in the system?
+1,Data and Participation,4,Reader and Writer Characteristics,17,Do the writers have unified or well-aligned interests?
+2,Technical Attributes,1,Codebase and Networks,18,Is there an involvement of an online trusted third party in the system?
+2,Technical Attributes,1,Codebase and Networks,19,"Is there a need to have the ability to manage the blockchain centrally, as needed?"
+2,Technical Attributes,1,Codebase and Networks,20,Is the core blockchain code open-source?
+2,Technical Attributes,1,Codebase and Networks,21,Is there a need to have same people updating both the code and the blockchain?
+2,Technical Attributes,1,Codebase and Networks,22,Is there a need that the blockchain nodes be uncertain about the eaxct number of nodes currently participating in the blockchain?
+2,Technical Attributes,1,Codebase and Networks,23,Is there a need to have the guarantee that all the nodes' experience with the blockchain to be consistent with each other?
+2,Technical Attributes,1,Codebase and Networks,24,Does every node unrestricted full authority and capability to interact with other nodes by creating an address on the blockchain network?
+2,Technical Attributes,1,Codebase and Networks,25,Is the blockchain network massively distributed?
+2,Technical Attributes,2,Smart Contracts,26,Are policies and smart contracts involved and managed?
+2,Technical Attributes,2,Smart Contracts,27,Can anyone participate in the process of block verification and to create smart contracts in the blockchain?
+2,Technical Attributes,2,Smart Contracts,28,Do the blockchain nodes may also have restricted access?
+2,Technical Attributes,3,Transaction Constraints,29,Are exchanges and transactions involved?
+2,Technical Attributes,3,Transaction Constraints,30,Do the blockchain need to first provide the nodes with rights to view the transactions?
+2,Technical Attributes,3,Transaction Constraints,31,Is there a requirement to get authorisation to validate transactions in the blockchain?
+2,Technical Attributes,3,Transaction Constraints,32,Is there a need for the transactions to be validated by votes or consensus?
+2,Technical Attributes,3,Transaction Constraints,33,Is the transactional fee required to carry out transactions very small?
+2,Technical Attributes,4,Transaction Processes,34,Are the transactions private?
+2,Technical Attributes,4,Transaction Processes,35,Are there high performance and fast transaction needs?
+2,Technical Attributes,4,Transaction Processes,36,Is data-in-transit or transactions between the nodes need to be encrypted?
+2,Technical Attributes,4,Transaction Processes,37,Is there a strong need or emphasis on the security of the blockchain transactions?
+2,Technical Attributes,4,Transaction Processes,38,Is a time-consuming transaction verification process in the blockchain acceptable?
+2,Technical Attributes,4,Transaction Processes,39,Is there a need for short transaction frequency in the blockchain?
+2,Technical Attributes,5,Miners and Consensus,40,Is there a need for miners in the blockchain?
+2,Technical Attributes,5,Miners and Consensus,41,Is there a need to have presence of an additional authentication and authorisation layer on miners in place in the blockchain?
+2,Technical Attributes,5,Miners and Consensus,42,Can any node join the blockchain at any time and become a miner?
+2,Technical Attributes,5,Miners and Consensus,43,Is there a need to improve the speed and data-storage capacity of a blockchain by removing miners from it?
+2,Technical Attributes,5,Miners and Consensus,44,Can anyone join the protocol execution in the blockchain?
+2,Technical Attributes,5,Miners and Consensus,45,Is there requirement for all nodes to participate in the consensus process?
+2,Technical Attributes,5,Miners and Consensus,46,"In an environment where anyone can be a miner, is there a requirement that certain miners should be prioritised over other miners?"
+2,Technical Attributes,5,Miners and Consensus,47,"For more efficiency and less block creation time, is it acceptable for only certain nodes to have consensus power?"
+2,Technical Attributes,5,Miners and Consensus,48,Is recursive hashing required for the consensus process?
+2,Technical Attributes,5,Miners and Consensus,49,"For increased trust and ease of verifiability, is it acceptable (and required) if the nodes are required to sacrifice their tokens to form consensus?"
+2,Technical Attributes,5,Miners and Consensus,50,"Should the creator of the new block be chosen in a deterministic way such as wealth of the node, willingness for the node to sacrifice some wealth?"
+2,Technical Attributes,5,Miners and Consensus,51,Is there a requirement for the miners to be rewarded for block creation?
+2,Technical Attributes,5,Miners and Consensus,52,"For block creation, should the reward depend on the wealth burned to create the block?"
+3,Security,1,Governance,53,Is there a need of censorship in the system?
+3,Security,1,Governance,54,Is there a need to have a censorship-resistant blockchain?
+3,Security,1,Governance,55,Is lack of governance in the blockchain acceptable?
+3,Security,2,Security Activities,56,Is there a need to trust authority nodes to secure the blockchain network?
+3,Security,2,Security Activities,57,Is there a requirement for the blockchain to maintain privacy of use data without consolidating power with a single organisation?
+3,Security,2,Security Activities,58,Is there a need to have privacy and security access in the blockchain such that there is access control over which the data is public and private?
+3,Security,2,Security Activities,59,Is there a need to hold more data in a block without slowing things down or threatening its security in the blockchain?
+3,Security,2,Security Activities,60,"Arbitrarily, can any protocol participants drop off and new participants join in the blockchain without compromising with the security properties for newly joined nodes?"
+3,Security,2,Security Activities,61,Is there a need for the communication between blockchain nodes to take place over authenticated channels?
+3,Security,3,Access Control,62,Is there a need to control who can make changes to the blockchain software?
+3,Security,3,Access Control,63,Is the blockchain history open to any participating node (without the need of authorisation)?
+3,Security,3,Access Control,64,Is there an open access to read the information but require permission to access or transact on the blockchain network?
+3,Security,3,Access Control,65,Is there a need to have a borderless blockchain?
+4,Trust Parameters,1,Visibility,66,Will all the nodes have different view of the system state based on the centralised system decision?
+4,Trust Parameters,1,Visibility,67,Will all nodes have the same view of the system state of the blockchain without requiring approval?
+4,Trust Parameters,1,Visibility,68,Is there a need for a fully transparent system?
+4,Trust Parameters,1,Visibility,69,Is it required for some nodes to not see information or transactions performed on the blockchain?
+4,Trust Parameters,2,Integrity,70,Is there a centralised system to ensure the integrity of the data?
+4,Trust Parameters,2,Integrity,71,Are there authorised nodes to ensure the integrity of the transactions and architecture of the smart contracts?
+4,Trust Parameters,2,Integrity,72,Can a peer without permission be trusted with the integrity of the data?
+4,Trust Parameters,3,Validation,73,"Can any node verify the change in the state of the blockchain system, without any additional authorisation?"
+4,Trust Parameters,3,Validation,74,Is there a centralised system to verify the change in the state of the system?
+4,Trust Parameters,3,Validation,75,Can a blockchain user acquire the right to validate in exchange for their identity disclosure?
+4,Trust Parameters,3,Validation,76,Are the content on the the blockchain publicly verifiable?
+4,Trust Parameters,3,Validation,77,"Is there a need for the blockchain nodes to elect a leader, which will have the role of validating transactions and extending the blockchain?"
+5,Performance and Efficiency,1,System Performance,78,Is compromise with the system performance in terms of latency acceptable?
+5,Performance and Efficiency,1,System Performance,79,Is slow system latency acceptable in the blockchain?
+5,Performance and Efficiency,1,System Performance,80,Is compromise with the system performance in terms of throughput acceptable?
+5,Performance and Efficiency,1,System Performance,81,Is there a need of high throughput in the blockchain?
+5,Performance and Efficiency,1,System Performance,82,Is compromise on the efficiency of the blockchain acceptable?
+5,Performance and Efficiency,2,Expandability Attributes,83,Is there a need of high immutability with access controlled by authority nodes in the blockchain?
+5,Performance and Efficiency,2,Expandability Attributes,84,Is there a need for the blockchain to be able to scale easily?
+5,Performance and Efficiency,2,Expandability Attributes,85,Is there a need for the blockchain to have more customisability?
+5,Performance and Efficiency,2,Expandability Attributes,86,Is there a need for the blockchain to have more adaptation options?
+5,Performance and Efficiency,2,Expandability Attributes,87,"Is there a need to have compatibility across different versions throughout blockchain lifecycle to avoid problems such as possible forking, chain splits, etc. in the blockchain?"
+5,Performance and Efficiency,3,Market Design,88,Is a contractual based market approach needed?
+5,Performance and Efficiency,3,Market Design,89,Is price volatility a concern in the blockchain?
+5,Performance and Efficiency,3,Market Design,90,Are reputation risks of certain nodes accpected while incentivising them?
+5,Performance and Efficiency,3,Market Design,91,Do the benefits outweigh the associated costs?
+5,Performance and Efficiency,3,Market Design,92,Is the risk that originates from probable single point failure acceptable tradeoff as per business needs?
